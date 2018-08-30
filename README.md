@@ -74,3 +74,9 @@
               console.log(text);
           }
       })
+      
+      var errorBad = new Object();
+      var x = Object.keys(errorBad).reverse(); //返回errorBad 这个对象的键组成的数组 的倒序
+      var y = Object.keys(errorBad).map(function (key) {
+          return errorBad[key];
+      }).reverse();
