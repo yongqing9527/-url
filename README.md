@@ -1,4 +1,14 @@
 # -url
+### js获取当前文件夹的
+
+    var strFullPath=window.document.location.href;
+		var strPath=window.document.location.pathname;
+		var pos=strFullPath.indexOf(strPath);
+		var prePath=strFullPath.substring(0,pos);
+		var postPath=strPath.substring(0,strPath.substr(1).indexOf('/')+1);
+		var basePath = prePath;
+		basePath = prePath + postPath;	
+
 ### js获取url传递参数，js获取url？号后面的参数
   
         <Script language="javascript">  
