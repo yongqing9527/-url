@@ -1,4 +1,6 @@
 # -url
+### promise 
+      https://blog.csdn.net/MrJavaweb/article/details/79475949
 ### js获取当前文件夹的
 
     var strFullPath=window.document.location.href;
@@ -36,6 +38,8 @@
 * window.location.href
 * 例：http://localhost:8086/topic/index?topicId=361
 * alert(window.location.href); 则输出：http://localhost:8086/topic/index?topicId=361
+
+      window.location.href = document.referrer;
 
 设置或获取与 URL 关联的端口号码。
 * window.location.port
@@ -90,3 +94,5 @@
       var y = Object.keys(errorBad).map(function (key) {
           return errorBad[key];
       }).reverse();
+      
+      
